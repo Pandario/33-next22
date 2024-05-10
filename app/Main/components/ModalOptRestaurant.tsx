@@ -81,7 +81,7 @@ const ModalOptRestaurant: React.FC<ModalOptRestaurantProps> = ({active, setActiv
             />
 
 <label className='flex flex-col items-center justify-center p-1'>
-                  <div className="pb-2">Choose your hotel house:</div>
+                  <div className="pb-2">Choose your restaurant:</div>
                   <div className="">
                     <input
                           type="radio"
