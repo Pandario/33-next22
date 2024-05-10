@@ -20,7 +20,12 @@ export default function AboutUs() {
                     {' (especially in mobile version)'}, implemented video, carousels on main page, broken pages, googlemapAPI and etc.</h5>
                     <h5 className="text-xl mb-2">Contact us form plus reservations - all real. 
                         They connected to really MongoDB, separate ones so it would be used in backend.</h5>
-                        <h5 className="text-xl mb-4"> This is sort of projects I was working before.  </h5>
+                        <h5 className="text-xl mb-4"> 
+                            This is sort of projects I was working before.</h5> 
+                        
+                        <h5 className="text-xl mb-4">Why I left link on broken page? Cuz nextjs gives a tool to make unique
+                            broken pages and I prefer to have it custom one, when people make mistakes in address line.
+                          </h5>
                     </div>
 
                     <div className="flex flex-col  p-4 my-1 shadow-lg rounded-lg">

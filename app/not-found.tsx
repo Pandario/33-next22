@@ -1,21 +1,14 @@
 import Link from "next/link";
 import Navbar from "./Components/Nav";
-import Image from "next/image";
 import Footer from "./Components/Footer";
 
 export default function NotFound() {
     return (
       <div className="main">
           <Navbar/>
-            <div className="flex flex-col justify-center items-center pt-10">
-                <Image 
-                    src={'/img/404/404.jpg'}
-                    width={900}
-                    height={600}
-                    alt={'404 error'}
-                    className=""
-                />
-                            <div className="absolute justify-center text-center p-4 top-2/4 z-10 rounded bg-blue-200 opacity-65  text-gray-800 text-3xl   font-semibold  ">
+            <div className="flex flex-col justify-center items-center mt-60 ">
+
+                            <div className=" justify-center text-center my-10   rounded bg-blue-200 opacity-65  text-gray-800 text-3xl   font-semibold  ">
                 
                 <p 
                     className="  "
@@ -27,10 +20,10 @@ export default function NotFound() {
 
             <Link 
                     href='/' 
-                    className="absolute py-2 text-center justify-center top-3/4 z-10"
+                    className=" py-2 text-center justify-center "
                     >
                         <button 
-                            className="text-3xl px-4 py-3 bg-green-200 opacity-65 hover:bg-gray-700 text-gray-800 font-semibold hover:text-white py-2 px-4 border border-gray-800 hover:border-transparent rounded hover:opacity-90"
+                            className="text-3xl px-4 py-3 my-10 bg-green-200 opacity-65 hover:bg-gray-700 text-gray-800 font-semibold hover:text-white py-2 px-4 border border-gray-800 hover:border-transparent rounded hover:opacity-90"
                         >
                             Main page
                         </button>
