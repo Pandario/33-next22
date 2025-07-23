@@ -30,7 +30,6 @@ const Footer: React.FC = () => {
         <Link href="/" className="hover:text-indigo-700">Main</Link>
         <Link href="/404" className="hover:text-indigo-700">Broken page</Link>
         <Link href="/about" className="hover:text-indigo-700">About Us</Link>
-        <Link href="/contact" className="hover:text-indigo-700">Contact us</Link>
       </div>
       <div className="mb-4 lg:mb-0">
         <h3 className="font-bold mb-2 lg:text-left text-center">Open Hours</h3>
@@ -41,7 +40,7 @@ const Footer: React.FC = () => {
           <a href="https://github.com/Pandario" className="text-xl mr-2">
             <FaGithub />
           </a>
-          <a href="https://www.linkedin.com/in/andrey-chernov-549700242/" className="text-xl">
+          <a href="https://www.linkedin.com/in/andrew-pandario-3a4367367/" className="text-xl">
             <FaLinkedin />
           </a>
         </div>
